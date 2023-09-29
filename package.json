@@ -33,7 +33,8 @@
     "build": "npm run build:types && npm run build:esm && npm run build:cjs",
     "build:clean": "npm run clean && npm run build",
     "pack": "npm pack",
-    "pack:clean": "rm -rf *.tgz && npm run pack"
+    "pack:clean": "rm -rf *.tgz && npm run pack",
+    "install": "npm run build"
   },
   "author": "psibean",
   "license": "ISC",
